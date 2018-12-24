@@ -126,7 +126,7 @@ To use this software within Docker, follow these steps.
 **Upload directory `2018.12.24-Holiday-2018` full of `JPEG` photos to Flickr:**
 
 ```sh
-docker run --rm -it -u $(id -u):$(id -g) -v "$PWD":/mnt -v flickr-cli:/data brucebentley/flickr-cli upload --config=/data/config.yml --tags "2018.12.24 Holiday-2018 Holiday 2018" --sets "Holiday 2018" 2018.12.24-Holiday-2018
+docker run --rm -it -u $(id -u):$(id -g) -v "$PWD":/mnt -v flickr-cli:/data brucebentley/flickr-cli upload --config=/data/config.yml --tags '2018.12.24 "Holiday 2018" Holiday 2018' --sets "Holiday 2018" 2018.12.24-Holiday-2018
 ```
 
 **For Docker image troubleshooting, you can use:**
