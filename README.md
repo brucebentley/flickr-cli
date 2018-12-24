@@ -1,25 +1,27 @@
 # Flickr CLI
 
+[![Build Status](https://travis-ci.com/brucebentley/flickr-cli.svg?branch=master)](https://travis-ci.com/brucebentley/flickr-cli)
+
 A command-line interface to [Flickr][Flickr Homepage]. Upload & download photos, photo sets, directories via shell.
 
 ## Prerequisites
 
 Before you begin, make sure you have the following items installed & available.
 
-- [Flickr Account][Flickr Homepage] — **( Required )** if you wish to use this `flickr-cli` repository
-  - [Flickr `API Key`][Flickr App Create] — **( Required )** in order to interact with the Flickr API
+- [Flickr Account][Flickr Homepage] **( Required )** — If you wish to use this `flickr-cli` repository
+  - [Flickr `API Key`][Flickr App Create] **( Required )** — In order to interact with the Flickr API
 - [`Git`][Git Homepage] / [`GitHub`][GitHub Homepage] — So that you may clone and/or fork this repository
-- [`Composer`][Composer Homepage] — **( Required )** Dependency Manager for `PHP`
+- [`Composer`][Composer Homepage] **( Required )** — Dependency Manager for `PHP`
   - [Linux/Unix/macOS Installation Instructions][Composer on Linux/Unix/macOS]
   - [Windows Installation Instructions][Composer on Windows]
-- [`Docker`][Docker Homepage] — **( Optional )** If you wish to run this app in a _"container"_
-  - [Install `Docker` on macOS][Install on macOS]
-  - [Install `Docker` on Windows][Install on Windows]
-  - [Install `Docker` on CentOS Linux][Install on CentOS]
-  - [Install `Docker` on Debian Linux][Install on Debian]
-  - [Install `Docker` on Fedora Linux][Install on Fedora]
-  - [Install `Docker` on Ubuntu Linux][Install on Ubuntu]
-- [`Personal Access Token` on GitHub][GitHub Personal Access Token] — **( Optional )** if you plan on using `Docker`
+- [`Docker`][Docker Homepage] **( Optional )** — If you wish to run this app inside of a Docker Container
+  - [Install `Docker` on macOS][Docker on macOS]
+  - [Install `Docker` on Windows][Docker on Windows]
+  - [Install `Docker` on CentOS Linux][Docker on CentOS]
+  - [Install `Docker` on Debian Linux][Docker on Debian]
+  - [Install `Docker` on Fedora Linux][Docker on Fedora]
+  - [Install `Docker` on Ubuntu Linux][Docker on Ubuntu]
+- [GitHub `Personal Access Token`][GitHub Personal Access Token] **( Optional )** — If you plan on using `Docker`
 
 ## Installation
 
