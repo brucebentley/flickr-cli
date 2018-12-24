@@ -1,0 +1,54 @@
+# Compiled Output
+/tmp/
+
+# Dependencies
+/vendor/
+
+# Config & Environment Settings
+.env
+.env.example
+
+# Docker
+*.lock1
+.dockerignore
+Dockerfile
+Dockerfile1
+
+# File Types
+*.txt
+*.yml
+.editorconfig
+.git
+.gitignore
+phpcs.xml
+*.md
+
+# IDEs and Editors
+.c9/
+.idea/
+.settings/
+.vscode/
+*.launch
+*.sublime-*
+.classpath
+.project
+
+# Log Files
+log/
+logs/
+*.log
+
+# Miscellaneous
+.history/
+*.agz
+*.tgz
+.sass-cache
+id_rsa
+
+# System Files
+._*
+.AppleDouble
+*.DS_Store
+.DS_Store
+.LSOverride
+Thumbs.db

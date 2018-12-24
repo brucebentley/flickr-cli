@@ -1,0 +1,58 @@
+# Compiled Output
+/dist/
+/tmp/
+/out-tsc/
+/package/
+**/docs/**
+
+# Dependencies
+/bower_components/
+/jspm_packages/
+/node_modules/
+/typings/
+/vendor/
+composer.phar
+
+# Configuration & Environment Settings
+*.env
+!.env.example
+config.yml
+
+# IDEs and Editors
+/.idea
+.c9/
+.settings/
+.vscode/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/settings.json
+!.vscode/tasks.json
+*.launch
+*.sublime-*
+.classpath
+.project
+
+# Log Files
+log/
+logs/
+*.log
+npm-debug.log*
+testem.log
+yarn-debug.log*
+yarn-error.log*
+
+# Miscellaneous
+.history/
+*.agz
+*.tgz
+.sass-cache
+id_rsa
+
+# System Files
+._*
+.AppleDouble
+*.DS_Store
+.DS_Store
+.LSOverride
+Thumbs.db
